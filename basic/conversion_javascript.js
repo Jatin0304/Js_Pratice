@@ -15,4 +15,12 @@ let valueInNumber = Number(score)
 let isLoggedIn = "jatin"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+//console.log(booleanIsLoggedIn);
+
+
+let someNumber = 33
+
+let stringNumberv = String(someNumber)
+console.log(someNumber);
+console.log(typeof someNumber);
+
