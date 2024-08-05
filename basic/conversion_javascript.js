@@ -18,9 +18,26 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 //console.log(booleanIsLoggedIn);
 
 
-let someNumber = 33
+//let someNumber = 33
 
-let stringNumberv = String(someNumber)
-console.log(someNumber);
-console.log(typeof someNumber);
+// let stringNumberv = String(someNumber)
+// console.log(someNumber);
+// console.log(typeof someNumber);
+
+let someNumber = 3
+
+let stringNumber = Symbol(someNumber)
+// console.log(someNumber);
+// console.log(typeof someNumber);
+
+
+// ***************Operation*******************
+
+let value = 4
+let negValue = -value
+// console.log(negValue)
+
+let gameCounter = "100"
+gameCounter--
+console.log(typeof gameCounter);
 
